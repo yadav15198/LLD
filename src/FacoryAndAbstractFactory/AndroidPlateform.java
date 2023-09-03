@@ -1,6 +1,6 @@
 package FacoryAndAbstractFactory;
 
-public class AndroidPlateform implements UIFActory{
+public class AndroidPlateform implements UIFactory {
 
     @Override
     public void createButton() {

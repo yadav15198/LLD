@@ -11,7 +11,7 @@ public class Flutter  {
      }
 
      //this is the factory method
-     public  UIFActory createUIFactory(){
+     public UIFactory createUIFactory(){
          return UIFactoryFactory.getUIPlateform(this.plateform);
      }
 }

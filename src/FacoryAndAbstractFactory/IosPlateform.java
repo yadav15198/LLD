@@ -1,6 +1,6 @@
 package FacoryAndAbstractFactory;
 
-public class IosPlateform implements UIFActory{
+public class IosPlateform implements UIFactory {
     @Override
     public void createButton() {
         System.out.println("this will call ios button");

@@ -2,7 +2,7 @@ package FacoryAndAbstractFactory;
 
 
 //abstract factory
-public interface UIFActory {
+public interface UIFactory {
     public void createButton();
 
     public void createMenu();
