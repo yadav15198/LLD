@@ -21,6 +21,5 @@ public class Client {
         LinkStack.pop();
         LinkStack.push(10);
         System.out.println(LinkStack.push(11));
-
     }
 }
